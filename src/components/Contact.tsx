@@ -32,7 +32,6 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
                   <div>
-                    <h4 className="font-bold mb-1">Phone Numbers</h4>
                     <p className="text-muted-foreground">0720745010</p>
                     <p className="text-muted-foreground">0729147145</p>
                   </div>
@@ -43,7 +42,6 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">Email</h4>
                   <p className="text-muted-foreground">coyusufgeneralsuppliesltd@gmail.com</p>
                 </div>
               </div>
@@ -53,7 +51,6 @@ const Contact = () => {
                   <MapPin className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">Location</h4>
                   <p className="text-muted-foreground">Kangundo Road - Umoja 3</p>
                 </div>
               </div>
@@ -63,7 +60,6 @@ const Contact = () => {
                   <Building className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-1">Business Structure</h4>
                   <p className="text-muted-foreground">Limited Liability Company</p>
                   <p className="text-muted-foreground text-sm">Established 2019</p>
                 </div>

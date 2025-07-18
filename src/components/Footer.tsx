@@ -7,11 +7,6 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <img 
-              src="/lovable-uploads/f63bcfbe-a396-4c10-b8cb-8ec108c8e53d.png" 
-              alt="Coyusuf General Supplies" 
-              className="h-16 w-auto mb-4 filter brightness-0 invert"
-            />
             <p className="text-primary-foreground/80 mb-4">
               Your trusted partner for comprehensive general supplies. 
               Delivering efficiency, endlessly since 2019.

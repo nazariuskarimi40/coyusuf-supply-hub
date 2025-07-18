@@ -132,28 +132,28 @@ const Services = () => {
               <img 
                 src="/lovable-uploads/0b4ecc53-e7d3-442b-ad31-19f8e90f3e46.png" 
                 alt="Professional delivery service with packages"
-                className="w-full h-48 object-cover"
+                className="w-full h-auto object-contain"
               />
             </div>
             <div className="rounded-lg overflow-hidden shadow-elegant">
               <img 
                 src="/lovable-uploads/5b4d0013-11aa-4522-940c-e8d2449e3f20.png" 
                 alt="Customer receiving delivery at home"
-                className="w-full h-48 object-cover"
+                className="w-full h-auto object-contain"
               />
             </div>
             <div className="rounded-lg overflow-hidden shadow-elegant">
               <img 
                 src="/lovable-uploads/f29f0a8b-3a71-495a-803f-38a525489615.png" 
                 alt="Professional delivery team in action"
-                className="w-full h-48 object-cover"
+                className="w-full h-auto object-contain"
               />
             </div>
             <div className="rounded-lg overflow-hidden shadow-elegant">
               <img 
                 src="/lovable-uploads/14c997c4-7755-4894-848b-7ca1dc3c4a90.png" 
                 alt="Logistics and package handling"
-                className="w-full h-48 object-cover"
+                className="w-full h-auto object-contain"
               />
             </div>
           </div>
