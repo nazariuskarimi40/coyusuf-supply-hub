@@ -31,11 +31,11 @@ const Contact = () => {
                 <div className="bg-primary/10 rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
-                <div>
-                  <h4 className="font-bold mb-1">Phone Numbers</h4>
-                  <p className="text-muted-foreground">072 047 450 10</p>
-                  <p className="text-muted-foreground">072 147 145</p>
-                </div>
+                  <div>
+                    <h4 className="font-bold mb-1">Phone Numbers</h4>
+                    <p className="text-muted-foreground">0720745010</p>
+                    <p className="text-muted-foreground">0729147145</p>
+                  </div>
               </div>
 
               <div className="flex items-start gap-4">
@@ -127,7 +127,7 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               className="bg-accent hover:bg-accent-light text-accent-foreground shadow-glow"
-              onClick={() => window.location.href = 'tel:0720474510'}
+              onClick={() => window.location.href = 'tel:0720745010'}
             >
               Call Now
             </Button>

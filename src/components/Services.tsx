@@ -116,6 +116,49 @@ const Services = () => {
           </div>
         </div>
 
+        {/* Delivery Gallery */}
+        <div className="mt-16 mb-16">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold mb-4 text-foreground">
+              Professional <span className="text-primary">Delivery Service</span>
+            </h3>
+            <p className="text-lg text-muted-foreground">
+              Reliable, efficient delivery by our professional team
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="rounded-lg overflow-hidden shadow-elegant">
+              <img 
+                src="/lovable-uploads/0b4ecc53-e7d3-442b-ad31-19f8e90f3e46.png" 
+                alt="Professional delivery service with packages"
+                className="w-full h-48 object-cover"
+              />
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-elegant">
+              <img 
+                src="/lovable-uploads/5b4d0013-11aa-4522-940c-e8d2449e3f20.png" 
+                alt="Customer receiving delivery at home"
+                className="w-full h-48 object-cover"
+              />
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-elegant">
+              <img 
+                src="/lovable-uploads/f29f0a8b-3a71-495a-803f-38a525489615.png" 
+                alt="Professional delivery team in action"
+                className="w-full h-48 object-cover"
+              />
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-elegant">
+              <img 
+                src="/lovable-uploads/14c997c4-7755-4894-848b-7ca1dc3c4a90.png" 
+                alt="Logistics and package handling"
+                className="w-full h-48 object-cover"
+              />
+            </div>
+          </div>
+        </div>
+
         {/* Operations Plan */}
         <div className="mt-16 bg-primary/5 rounded-2xl p-8">
           <div className="text-center mb-8">
