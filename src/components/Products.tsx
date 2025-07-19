@@ -137,6 +137,109 @@ const Products = () => {
             ))}
           </div>
         </div>
+
+        {/* Product Gallery */}
+        <div className="mt-20">
+          <div className="text-center mb-12">
+            <h3 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">
+              Our <span className="text-primary">Product Gallery</span>
+            </h3>
+            <p className="text-lg text-muted-foreground">
+              High-quality supplies we provide to meet all your business needs
+            </p>
+          </div>
+
+          {/* Office Supplies & Furniture */}
+          <div className="mb-12">
+            <h4 className="text-xl font-bold mb-6 text-foreground">Office Supplies & Furniture</h4>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/7dffe7bb-cae9-4041-a7ac-1caf4128c4d5.png" 
+                  alt="Office supplies - pens, sticky notes, markers"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/5cb858b4-4897-400f-86a4-f8d9a06a227e.png" 
+                  alt="Office desk setup with computer and chair"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/ad252c50-d116-46d6-9373-2356d8bcecca.png" 
+                  alt="Modern office furniture setup"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/7d934148-8979-4e7a-9106-7117013093cf.png" 
+                  alt="Executive office chairs collection"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/e1acae63-e751-41eb-977b-2d2e0dd90f78.png" 
+                  alt="Executive office desk and chair"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/68067fc5-d056-447d-a4df-b1cd591d999c.png" 
+                  alt="Office equipment - printers and technology"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Cleaning & Safety Supplies */}
+          <div className="mb-12">
+            <h4 className="text-xl font-bold mb-6 text-foreground">Cleaning & Safety Supplies</h4>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/9cbcd128-3201-4faa-88ed-00808f015baf.png" 
+                  alt="Mortein insect spray"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/df6ee29d-6684-4a4d-b5ba-093dc872b2b1.png" 
+                  alt="Cleaning supplies and equipment"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/0b85035b-0ce5-46e1-8fd3-5042dd8a6181.png" 
+                  alt="Safety equipment and protective gear"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Medical & Healthcare Supplies */}
+          <div>
+            <h4 className="text-xl font-bold mb-6 text-foreground">Medical & Healthcare Supplies</h4>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/f0a9021e-cdb3-4a08-8312-7547767d6c7d.png" 
+                  alt="Medical supplies and equipment"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
