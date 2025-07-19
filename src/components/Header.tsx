@@ -15,26 +15,6 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur-sm border-b">
-      {/* Top contact bar */}
-      <div className="bg-primary text-primary-foreground py-2">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-wrap justify-center md:justify-between items-center text-sm gap-4">
-            <div className="flex items-center gap-2">
-              <Phone className="h-4 w-4" />
-              <span>072 047 450 10 | 072 147 145</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Mail className="h-4 w-4" />
-              <span>coyusufgeneralsuppliesltd@gmail.com</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <MapPin className="h-4 w-4" />
-              <span>Kangundo Road - Umoja 3</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Main navigation */}
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">

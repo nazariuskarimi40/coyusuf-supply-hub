@@ -112,6 +112,18 @@ const Products = () => {
           ))}
         </div>
 
+        {/* Client Success Section */}
+        <div className="text-center mb-16">
+          <div className="bg-gradient-primary rounded-2xl p-8 text-white">
+            <h3 className="text-2xl md:text-3xl font-bold mb-4">
+              Trusted by <span className="text-yellow-300">500+</span> Happy Clients
+            </h3>
+            <p className="text-lg opacity-90">
+              Serving businesses across Nairobi, Kenya with quality supplies and exceptional service
+            </p>
+          </div>
+        </div>
+
         {/* Target Markets Section */}
         <div className="bg-muted/30 rounded-2xl p-8">
           <div className="text-center mb-12">
@@ -156,21 +168,21 @@ const Products = () => {
               <div className="rounded-lg overflow-hidden shadow-elegant">
                 <img 
                   src="/lovable-uploads/7dffe7bb-cae9-4041-a7ac-1caf4128c4d5.png" 
-                  alt="Office supplies - pens, sticky notes, markers"
+                  alt="Essential office supplies - ballpoint pens, colorful sticky notes, and permanent markers for daily office tasks"
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-lg overflow-hidden shadow-elegant">
                 <img 
                   src="/lovable-uploads/5cb858b4-4897-400f-86a4-f8d9a06a227e.png" 
-                  alt="Office desk setup with computer and chair"
+                  alt="Complete office workstation with ergonomic desk, modern computer setup and comfortable office chair"
                   className="w-full h-auto object-contain"
                 />
               </div>
               <div className="rounded-lg overflow-hidden shadow-elegant">
                 <img 
                   src="/lovable-uploads/ad252c50-d116-46d6-9373-2356d8bcecca.png" 
-                  alt="Modern office furniture setup"
+                  alt="Contemporary office furniture collection featuring sleek desks and modern seating solutions"
                   className="w-full h-auto object-contain"
                 />
               </div>
@@ -303,14 +315,21 @@ const Products = () => {
             </div>
           </div>
 
-          {/* Medical & Healthcare Supplies */}
+          {/* Personal Care & Hygiene */}
           <div>
-            <h4 className="text-xl font-bold mb-6 text-foreground">Medical & Healthcare Supplies</h4>
+            <h4 className="text-xl font-bold mb-6 text-foreground">Personal Care & Hygiene</h4>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="rounded-lg overflow-hidden shadow-elegant">
                 <img 
-                  src="/lovable-uploads/f0a9021e-cdb3-4a08-8312-7547767d6c7d.png" 
-                  alt="Medical supplies and equipment"
+                  src="/lovable-uploads/b162a9d2-e6c0-4632-9267-1db2257e78c6.png" 
+                  alt="Dettol Cool Antibacterial Body wash - Icy Mint & Bergamot with 12hr odour protection"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/0c183d5a-e6ed-4035-a242-eeb4f8fb9767.png" 
+                  alt="Dettol Fresh Antibacterial Body wash - Yuzu Citrus with 12hr odour protection"
                   className="w-full h-auto object-contain"
                 />
               </div>
