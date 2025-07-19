@@ -195,6 +195,55 @@ const Products = () => {
                   className="w-full h-auto object-contain"
                 />
               </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/620e5e14-510a-4e26-9ed5-633c3f571935.png" 
+                  alt="Books and laptop for educational supplies"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/b2a9cf26-2304-47a0-be28-8da9b902cef5.png" 
+                  alt="Windows 11 laptops and devices"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Technology & Electronics */}
+          <div className="mb-12">
+            <h4 className="text-xl font-bold mb-6 text-foreground">Technology & Electronics</h4>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/0a0922b4-9e21-47e4-8fdd-36870aea3e57.png" 
+                  alt="Casio scientific calculator blue"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/e434e6c1-4359-41be-888d-57c4a12fdd10.png" 
+                  alt="Pink scientific calculator"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/7e80a114-5325-4dfc-9147-06264185e788.png" 
+                  alt="Printer ink cartridges CMYK colors"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/0eff63e5-8384-414b-8e0f-3eee2e11f05e.png" 
+                  alt="Color ink bottles and cartridges"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
             </div>
           </div>
 
@@ -220,6 +269,34 @@ const Products = () => {
                 <img 
                   src="/lovable-uploads/0b85035b-0ce5-46e1-8fd3-5042dd8a6181.png" 
                   alt="Safety equipment and protective gear"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/a5ebf3cd-4ef8-4474-8f12-09171b39c2e2.png" 
+                  alt="Harpic toilet cleaner products range"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/00f9f79b-6843-4b62-98a3-29028a997ed1.png" 
+                  alt="Dettol antiseptic liquid"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/e38bcace-87a4-48b6-ae5b-93998058ac4c.png" 
+                  alt="Harpic and Lysol cleaning products"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+              <div className="rounded-lg overflow-hidden shadow-elegant">
+                <img 
+                  src="/lovable-uploads/ce59a075-234d-4758-afdb-a985c543b8be.png" 
+                  alt="JIK bleach products collection"
                   className="w-full h-auto object-contain"
                 />
               </div>
