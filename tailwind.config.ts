@@ -47,6 +47,18 @@ export default {
 					foreground: 'hsl(var(--accent-foreground))',
 					light: 'hsl(var(--accent-light))'
 				},
+				yellow: {
+					DEFAULT: 'hsl(var(--yellow))',
+					foreground: 'hsl(var(--yellow-foreground))',
+					light: 'hsl(var(--yellow-light))',
+					dark: 'hsl(var(--yellow-dark))'
+				},
+				red: {
+					DEFAULT: 'hsl(var(--red))',
+					foreground: 'hsl(var(--red-foreground))',
+					light: 'hsl(var(--red-light))',
+					dark: 'hsl(var(--red-dark))'
+				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
@@ -105,11 +117,15 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-accent': 'var(--gradient-accent)'
+				'gradient-accent': 'var(--gradient-accent)',
+				'gradient-yellow': 'var(--gradient-yellow)',
+				'gradient-red': 'var(--gradient-red)'
 			},
 			boxShadow: {
 				'elegant': 'var(--shadow-elegant)',
-				'glow': 'var(--shadow-glow)'
+				'glow': 'var(--shadow-glow)',
+				'yellow': 'var(--shadow-yellow)',
+				'red': 'var(--shadow-red)'
 			}
 		}
 	},
